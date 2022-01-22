@@ -4,3 +4,4 @@ reports
 .stryker-tmp
 .DS_Store
 .parcel-cache
+dist

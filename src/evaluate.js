@@ -1,13 +1,7 @@
 /**
  * Store default globals
  */
-const defaultGlobals = (function () {
-  const keys = {};
-  Object.keys(window).forEach(function (key) {
-    keys[key] = true;
-  });
-  return keys;
-})();
+const defaultGlobals = Object.assign({}, window);
 
 /**
  * Deletes non-default globals
@@ -15,7 +9,7 @@ const defaultGlobals = (function () {
 const revertToDefaultGlobals = function revertToDefaultGlobals() {
   Object.keys(window)
     .filter(function (key) {
-      return !defaultGlobals[key];
+      return defaultGlobals[key] === undefined;
     })
     .forEach(function (key) {
       delete window[key];

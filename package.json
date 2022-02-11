@@ -10,7 +10,7 @@
   "docs": "docs",
   "patch": "git push && npm version patch && npm publish",
   "minor": "git push && npm version minor && npm publish",
-  "major": "git push && npm version major && npm publish",
+  "major": "git push && npm version major && npm publish"
  },
  "repository": {
   "type": "git",

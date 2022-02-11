@@ -2,7 +2,7 @@
  "name": "@danielcobo/repl",
  "version": "1.0.0",
  "description": "JavaScript Browser REPL",
- "source": "./src/index.html",
+ "source": "./docs/index.html",
  "scripts": {
   "test": "jest --collectCoverage --runInBand",
   "testing": "jest --watch --collectCoverage --runInBand",

@@ -1,7 +1,7 @@
 {
  "name": "@danielcobo/repl",
  "version": "1.0.0",
- "description": "JavaScript Browser REPL",
+ "description": "JavaScript Browser REPL. [See Demo.](https://www.danielcobo.me/repl/)",
  "source": "./docs/index.html",
  "scripts": {
   "test": "jest --collectCoverage --runInBand",

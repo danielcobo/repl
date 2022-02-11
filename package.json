@@ -11,9 +11,7 @@
   "patch": "git push && npm version patch && npm publish",
   "minor": "git push && npm version minor && npm publish",
   "major": "git push && npm version major && npm publish",
-  "start": "parcel",
-  "build": "parcel build",
-  "prepublishOnly": "parcel build"
+  "start": "parcel"
  },
  "repository": {
   "type": "git",
@@ -34,14 +32,6 @@
   "@danielcobo/docs": "^1.0.16",
   "@stryker-mutator/core": "^5.4.1",
   "@stryker-mutator/jest-runner": "^5.4.1",
-  "jest": "^27.2.5",
-  "parcel": "^2.2.1"
- },
- "dependencies": {
-  "@danielcobo/type": "^1.0.6",
-  "@danielcobo/uuid": "^1.0.1",
-  "monaco-editor": "^0.31.1",
-  "monaco-themes": "^0.4.0",
-  "prismjs": "^1.26.0"
+  "jest": "^27.2.5"
  }
 }
